@@ -1,10 +1,11 @@
+import MoviesTrack from './containers/MovieTrack/MoviesTrack';
 
-import './App.css'
-
-const App = () => (
+const App = () => {
+  return (
     <>
-
+      <MoviesTrack/>
     </>
-);
+  );
+};
 
-export default App
+export default App;
